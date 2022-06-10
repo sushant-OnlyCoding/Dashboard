@@ -1,0 +1,109 @@
+app-header{
+    position:fixed;
+    width: 100%;
+    top:0px;
+    height: 4rem;
+    z-index:2;
+}
+
+main{
+    position: absolute;
+    width:100%;
+    top:4rem;
+    z-index: 1;
+}
+app-sidenav{
+    position:absolute;
+    left:0rem;
+    width:60px;
+    height:calc(100vh - 4rem);
+    box-shadow:0px 0px 10px rgba(0,0,0,0.5);
+    background-color: rgba(34,34,34);
+    border-top:1px solid white;
+    overflow: hidden;
+    white-space: nowrap;
+    transition: width 250ms ease-in;
+}
+
+.app-side-nav-open{
+    width:250px
+}
+
+.display-area{
+    position:absolute;
+    left:60px;
+    width:calc(100% - 60px);
+    transition: left 250ms ease-in, width 250ms ease-in;
+}
+
+.display-area-shrink {
+    width:calc(100% - 250px);
+    left:250px;
+}
+
+.middleheader{
+    height:10rem;
+    background-color: rgb(255, 215, 170);
+    margin-left:2rem;
+    margin-top:1.5rem;
+    margin-bottom:1rem;
+    border-radius:30px;
+}
+.middleheader2{
+     height:21rem;
+     width:100%;
+     margin-left:2rem;
+    margin-top:0.5rem;
+    margin-bottom:4rem;
+}
+.Progdiv1{
+    background-color: rgb(216, 215, 214);
+    border-radius:30px;
+    margin-right:3rem;
+}
+.progdiv2{
+    background-color: #222831;
+    border-radius:30px;
+}
+
+.para p {
+    text-align: center;
+    margin:1rem;
+    color:rgb(250, 152, 6);
+    font-size: larger;
+    
+}
+.avatar img{
+    width:10rem;
+    height:10rem;
+    margin-left:5rem;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400;500&display=swap");
+
+
+.card {
+  background-color: #222831;
+  height: 12rem;
+  border-radius: 5px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.7);
+  color: white;
+}
+
+.card__name {
+  margin-top: 15px;
+  font-size: 1.5em;
+}
+
+.card__image {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  border: 5px solid #272133;
+  margin-top: 20px;
+  box-shadow: 0 10px 50px rgba(235, 25, 110, 1);
+}
+
+
+
